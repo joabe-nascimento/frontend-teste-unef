@@ -1,8 +1,31 @@
-# React + Vite
+Desafio UNEF - Lista de Tarefas (Todo List) e CRUD de Pessoas
+Descrição do Desafio
+Este desafio envolve a implementação de uma aplicação de Lista de Tarefas (Todo List) e um CRUD de Pessoas, com as funcionalidades de Create (Criar), Read (Ler), Update (Atualizar) e Delete (Deletar). O objetivo é construir uma aplicação funcional utilizando tecnologias web como React, Express, MongoDB e Vercel para deploy.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades:
+Todo List (Lista de Tarefas)
+O sistema permite gerenciar uma lista de tarefas com as seguintes funcionalidades:
 
-Currently, two official plugins are available:
+Criação de Novas Tarefas: Permite ao usuário adicionar novas tarefas à lista.
+Listagem de Tarefas Existentes: Exibe todas as tarefas que estão atualmente na lista.
+Edição de Tarefas: Permite ao usuário editar as informações de uma tarefa existente.
+Exclusão de Tarefas: Permite ao usuário remover uma tarefa da lista.
+CRUD de Pessoas
+O sistema também permite gerenciar informações de pessoas com as seguintes operações:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Criação de Pessoa: Adiciona uma nova pessoa com as informações de nome, email, telefone e data de nascimento.
+Listagem de Pessoas: Exibe todas as pessoas cadastradas.
+Edição de Pessoa: Permite a atualização das informações de uma pessoa existente.
+Exclusão de Pessoa: Permite ao usuário excluir uma pessoa do sistema.
+Requisitos
+Tecnologias usadas:
+Frontend: React, CSS
+Backend: Node.js, Express, MongoDB
+Deploy: Vercel para o frontend, Render para o backend 
+
+
+Link de Acesso
+Você pode acessar a aplicação online através do seguinte link:
+
+Acesse o Projeto aqui
+https://frontend-teste-unef.vercel.app/people
