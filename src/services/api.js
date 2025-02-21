@@ -1,7 +1,10 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api', // URL do backend
+  baseURL: 'https://backend-teste-unef.onrender.com/api', // URL pública do backend no Render
 });
 
 export default api;
+
+
+///ajuste das
